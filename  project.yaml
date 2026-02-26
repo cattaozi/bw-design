@@ -4,9 +4,18 @@ repos:
   - name: bw-design
     role: design
     description: 设计仓库，存放 PRD、Story、UI 规范
-  - name: bw-api
-    role: implementation
-    description: 后端服务，提供所有 API 接口
+    url: https://github.com/cattaozi/bw-design
   - name: bw-web
     role: implementation
-    description: 前端页面，React + Vite + Tailwind
+    description: 后端服务，提供所有 API 接口
+    url: https://github.com/cattaozi/bw-web
+  - name: bw-ui
+    role: implementation
+    description: 前端页面
+    url: https://github.com/cattaozi/bw-design
+
+review:
+  enabled: true
+  max_rounds: 3
+
+timeout_hours: 4
