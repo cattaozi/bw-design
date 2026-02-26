@@ -1,0 +1,12 @@
+project: birthday-wall
+
+repos:
+  - name: bw-design
+    role: design
+    description: 设计仓库，存放 PRD、Story、UI 规范
+  - name: bw-api
+    role: implementation
+    description: 后端服务，提供所有 API 接口
+  - name: bw-web
+    role: implementation
+    description: 前端页面，React + Vite + Tailwind
