@@ -12,7 +12,7 @@ repos:
   - name: bw-ui
     role: implementation
     description: 前端页面
-    url: https://github.com/cattaozi/bw-design
+    url: https://github.com/cattaozi/bw-ui
 
 review:
   enabled: true
